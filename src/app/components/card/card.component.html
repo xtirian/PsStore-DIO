@@ -1,1 +1,7 @@
-<p>card works!</p>
+<a href="#" class="card__container">
+	<img class="card__img" [src]=[imgSrc] alt="">
+
+	<app-card-label *ngIf="gameLabel != ''" label="{{gameLabel}}"></app-card-label>
+
+	<app-card-pricing platform="{{gamePlatform}}" price="{{gamePrice}}"></app-card-pricing>
+</a>

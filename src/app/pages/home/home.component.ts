@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import Data from 'src/app/mock/data'
+import {cardData} from 'src/app/models/objData'
 
 @Component({
   selector: 'app-home',
@@ -6,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+	mock:cardData;
+
+
+
+	constructor(	){
+		this.mock = Data
+	}
 
 }
