@@ -1,0 +1,16 @@
+<header class="header__sect">
+
+	<div class="header__sect-container">
+		<div>
+			<img src="assets/ps-logo.png" alt="" class="header-logo">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">GitHub</a></li>
+				<li *ngIf="!searchBar" (click)="searchBar=true" ><a>Pesquisar <mat-icon >search</mat-icon></a> </li>
+				<li class="searchBar" *ngIf="searchBar"><input type="text"> <mat-icon (click)="searchBar=false" >close</mat-icon></li>
+			</ul>
+		</nav>
+	</div>
+</header>

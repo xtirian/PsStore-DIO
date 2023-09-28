@@ -1,0 +1,21 @@
+.home__container{
+	max-width: 91%;
+	margin: 0 auto;
+	padding-top: 50px;
+
+
+
+	height: calc(100vh - 15%);
+
+}
+
+.home_content{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2%;
+	row-gap: 30px;
+
+	margin: 0 auto;
+
+}
