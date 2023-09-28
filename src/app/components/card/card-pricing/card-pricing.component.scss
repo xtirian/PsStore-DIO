@@ -1,0 +1,38 @@
+.card-pricing__container {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	z-index: 20;
+	color: white;
+	background-color: rgba($color: #0d0d0d, $alpha: 0.8);
+	padding: 5px 9px;
+	width: 100%;
+
+	display: flex	;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card__pricing-content {
+	h3 {
+		font-size: 18px;
+		font-weight: 400;
+	}
+	p{
+		font-size: 14px;
+
+		.pattern{
+			color: rgb(32, 113, 242) ;
+			font-weight: bolder;
+		}
+		.console{
+			color: grey;
+		}
+	}
+}
+
+.card-price{
+	p{
+		font-size: 20px;
+	}
+}
